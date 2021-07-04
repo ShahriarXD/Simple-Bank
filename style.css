@@ -1,13 +1,14 @@
-.text-center{
-  margin-top: 50px;
+body, html {
+  height: 100vh;
 }
 body{
-  height: 100vh;
-  width: 100%;
-  background-image: url(./background.jpg);
-  background-position: center;
+  background: url(./background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center; 
+}
+.text-center{
+  margin-top: 50px;
 }
 #form-control1{
   margin-bottom: 50px;
@@ -45,6 +46,9 @@ body{
   height: 170px;
   margin-right: 20px;
   box-shadow: 5px 5px 20px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .one{
   background-color: green;
@@ -54,6 +58,9 @@ body{
   height: 170px;
   margin-right: 20px;
   box-shadow: 5px 5px 20px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .two{
   background-color: azure;
@@ -63,6 +70,9 @@ body{
   height: 170px;
   margin-right: 20px;
   box-shadow: 5px 5px 20px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .four{
   background-color: blueviolet;
@@ -85,4 +95,11 @@ h1.text-center:nth-child(1) {
   height: 250px;
   margin-right: 20px;
   box-shadow: 5px 5px 20px gray;
+}
+button.btn:nth-child(1) {
+  margin-left: 45%;
+  margin-top: 30px;
+}
+#rafin{
+  display: none;
 }
